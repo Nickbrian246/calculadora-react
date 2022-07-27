@@ -1,0 +1,36 @@
+.Grid-container{
+    min-width: 300px;
+    max-width: 500px;
+    width: 450px;
+   display: grid;
+   grid-template-columns:repeat(4,80px);
+   grid-auto-rows: 80px;
+   gap:5px ;
+   margin: 0 auto;
+   justify-content: center;
+   align-content: center;
+}
+
+.big-button{
+    grid-area: 1/1/2/3 ;
+
+}
+.big-equeal{
+    grid-area: 5/-3/5/-1 ;
+
+}
+
+.Grid-container > button{
+    border-radius: 16px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: #fafafa75;
+    cursor:  pointer;
+    border: 1px solid white;
+}
+
+.Grid-container > button:hover{
+    background-color: aliceblue;
+}
