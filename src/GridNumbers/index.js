@@ -18,7 +18,7 @@ function GridNumbers(
     const clicknumber = (val) => {
 
         if (operacion === "") { // si no hay operacion entro y asigna al numero
-             return setnumero(numero + val);// el return es necesario para que la evaluacion ahi termine
+            return setnumero(numero + val);// el return es necesario para que la evaluacion ahi termine
             
         } //si ya tenemos operacion asignalo a la operacion 2 
         setnumero2(numero2+ val);
@@ -28,6 +28,7 @@ function GridNumbers(
         // setnumero2(numero2+val)
         // console.log(numero2)
     }
+    // my nombre
 
     const cliclOperation =(val) =>{
         setOperacion(val);
@@ -36,7 +37,7 @@ function GridNumbers(
 
     // const suma = () => {
     //     const operacion1 = Number(numero);
-    //     const operacion2 = Number(numero2);
+    
     //     const sumaa = operacion1 - operacion2;
     //     console.log(sumaa)
     // }
